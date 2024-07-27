@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Open+Sans:wght@300;400;600;700&family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#imgcontainer {
+  overflow: hidden
+}
+
+#logo {
+  font-weight: 900;
+  font-family: 'Comfortaa', cursive;
+  font-size: x-large;
+  /* font-style: oblique 20deg; */
+  transform: translateX(5vw);
+
+}
+
+#trn {
+  background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+  
+  background-size: auto 100vw;
+  flex-wrap: wrap-reverse;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+  background-blend-mode:hue;
+}
+
+#from-s {
+  width: 16vw;
+  text-align: center;
+  height: 50px;
+
+}
+
+#to-s {
+  width: 16vw;
+  text-align: center;
+  height: 50px;
+
+}
+
+#itrn {
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  margin: auto;
+  
+}
+
+#dep-dt {
+  width: 13vw;
+  text-align: center;
+  height: 50px;
+
+}
+
+#btnc{
+  width: 20px;
+  transform: translateY(42px);
+}
+
+/* 
+#he-1{
+    transform: translate(6vw,-70px);
+}*/
+#lab-l {
+  font-weight: 600;
+}
+
+#tlogo {
+  width: 80px;
+}
+
+#intrsm {
+  background-color: #f2f2f2;
+
+
+}
+
+#card-t {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration-color: #323c46;
+
+}
+
+#ftr {
+  width: 100%;
+  background-color: black;
+}
+
+#textclr {
+  font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Arial;
+}
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+
+}
+
+
+.blink {
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+.header-sub-title {
+  color: #020202;
+  font-family: "Open-sans", sans-serif;
+
+  padding: 0.1em;
+}
+
+.bg-c {
+  background-color: #383f51;
+  color: #fff;
+}
+
+.cl-v {
+  color: #a1c5ff;
+}
+
+.boldlight {
+  font-weight: 600;
+}
+
+.f-s {
+  font-size: small;
+  padding: 1.5rem 0rem;
+}
+
+.text-m {
+  color: #9b9b9b;
+
+}
+
+.f-l {
+  font-size: larger;
+}
+
+.f-s2 {
+  font-size: 0.95rem;
+  color: #6d6b6b;
+  font-weight: 500;
+}
+
+.logos-i {
+  width: 28px;
+ }
+
+.logos-f {
+  width: 20px;
+}
+
+.align-right {
+  float: right;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+.cont-us {
+  background-image: url(contact\ bg.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 60vh;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+}
+
+.t-ll {
+  font-size: 6vh;
+
+}
+
+.text-m2 {
+  font-size: x-large;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.bg-w {
+  background-color: #fbfbfd;
+}
+@media screen and (max-width:1023px) {
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Open+Sans:wght@300;400;600&family=Pacifico&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #txt {
+    text-decoration-color: #323c46;
+
+  }
+
+  #imgcontainer {
+    overflow: hidden
+  }
+
+  #logo {
+    font-weight: 900;
+    font-family: 'Comfortaa', cursive;
+    font-size: xx-large;
+    /* font-style: oblique 20deg; */
+    transform: translateX(5vw);
+
+  }
+
+  /* changing width of buttons on header of modal */
+  #loginmodallabel {
+    width: 40%;
+  }
+
+  #signupmodallabel {
+    width: 40%;
+  }
+
+  #trn {
+    background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-size: auto 100vw;
+
+    flex-wrap: wrap-reverse;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+  }
+
+  #from-s {
+    width: 200px;
+    text-align: center;
+    height: 50px;
+
+  }
+
+  #to-s {
+    width: 200px;
+    text-align: center;
+    height: 50px;
+
+  }
+
+  #itrn {
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    margin: auto;
+
+
+  }
+
+  #dep-dt {
+    width: 200px;
+    text-align: center;
+    height: 40px;
+
+  }
+
+  #x-c {
+    width: 20px;
+    transform: translateY(0px);
+  }
+
+  /* 
+#he-1{
+    transform: translate(6vw,-70px);
+}*/
+  #tlogo {
+    width: 80px;
+  }
+
+  #intrsm {
+    background-color: #f2f2f2;
+
+
+  }
+
+  #card-t {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration-color: #323c46;
+
+
+  }
+
+  #ftr {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+  }
+
+  .blink {
+    animation: blink 0.5s infinite;
+  }
+
+  @keyframes blink {
+    to {
+      opacity: .0;
+    }
+  }
+
+  .header-sub-title {
+    color: #020202;
+    font-family: "Open-sans", sans-serif;
+
+    padding: 0.1em;
+  }
+
+  .bg-c {
+    background-color: #383f51;
+    color: #fff;
+  }
+
+  .cl-v {
+    color: #a1c5ff;
+  }
+
+  .boldlight {
+    font-weight: 600;
+  }
+
+  .f-s {
+    font-size: small;
+    padding: 1.5rem 0rem;
+  }
+
+  .text-m {
+    color: #9b9b9b;
+
+  }
+
+  .f-l {
+    font-size: larger;
+  }
+
+  .f-s2 {
+    font-size: 0.95rem;
+    color: #6d6b6b;
+    font-weight: 500;
+  }
+
+  .logos-i {
+    width: 28px;
+   }
+
+  .logos-f {
+    width: 20px;
+  }
+
+  .align-right {
+    float: right;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -ms-progress-appearance: bar;
+  }
+
+  .cont-us {
+    background-image: url(contact\ bg.jpeg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 15vh;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .t-ll {
+    font-size: 6vh;
+
+  }
+
+  .text-m2 {
+    font-size: x-large;
+  }
+
+  .w-40 {
+    width: 40%;
+  }
+
+  .bg-w {
+    background-color: #fbfbfd;
+  }
+
+  .autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+  }
+
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+
+  input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+  }
+
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+  }
+
+  .autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+  }
+
+  .autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+
+  }
+
+  .blink {
+    animation: blink 0.5s infinite;
+  }
+
+  @keyframes blink {
+    to {
+      opacity: .0;
+    }
+  }
+
+}
+.bg-s{
+  background-color:#f2f2f2;
+}
+.text-v{
+  color:#5a5a5a
+}

@@ -1,0 +1,370 @@
+<!-- ॐ श्री गणेशाय नमः -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>TrainTrippers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Pacifico&display=swap"
+    rel="stylesheet">
+</head>
+<link rel="stylesheet" href="welcome.css">
+
+<body>
+  <!-- navigation bar html -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" id="vbb" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand me-5 px-2" href="#" id="logo">TrainTrippers</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav m-auto me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"   >About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"  >Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="feedback.html"  >Feedback</a>
+          </li>
+        </ul>
+        <!-- <a class="nav-link text-light" tabindex="-1" aria-current="page" >Profile</a> -->
+
+        <button class="btn text-light border-light" id="logout">Logout</button>
+      </div>
+    </div>
+  </nav>
+  <div id="trn">
+    <div class="p-5 pt-3 bg-s mx-auto rounded text-center bold" id="itrn">
+      <div class="d-flex">
+        <h3 class="header-sub-title" id="lab-l"></h3>
+        <h3 class="header-sub-title blink">|</h3>
+
+      </div>
+      <form autocomplete="off">
+        <div class="d-flex pt-5 flex-wrap">
+          <div class="d-grid m-2">
+            <label for="from-s" class="">From</label>
+            <div class="autocomplete rounded border"> <input type="search" placeholder="Station name" aria-placeholder="from"
+                id="from-s" class="rounded bold" required></div>
+          </div>
+          <a href="#" class="" id="x-c"><img id='btnc' src="pngegg.png" alt=""></a>
+          <div class="d-grid m-2">
+            <label for="to-s">Destination</label>
+            <div class="autocomplete rounded border">
+              <input type="search" placeholder="Station name" class="rounded text-center bold" id="to-s" required>
+            </div>
+          </div>
+          <div class="d-grid m-2">
+            <label for="to-s border">Departure</label>
+            <input type="date" id="dep-dt" class="rounded bold">
+          </div>
+        </div>
+        <div class="float-end f-s text-muted p-2 fw-light"><strong>IRCTC</strong>  authorized e-ticketing</div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border" id="loading" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+    </div>     
+    <div class="text-center">
+      <button type="submit" class="btn btn-success btn-lg al d-inline-block mt-4 mb-4" id="sbs">Search</button>
+    </div>
+  </form>
+
+  </div>
+  <div class="bg-s p-5" id="carousel-t">
+  <section class=" text-center bg-w border rounded py-3">
+    <div class="row pt-2 pb-2">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h3 class="fw-light text-dark">POPULAR IN INDIA</h3>
+        <p class="text-muted bold" id="txt">India is a home to the finest architectural heritage, serene ghats, spectacular landscapes and largest tiger reserve.</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="carouselExampleCaptions" class="carousel slide border" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner rounded carousel-fade">
+      <div class="carousel-item active">
+        <img src="martin-jernberg-nE2gf1scItI-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Victoria Memorial</h5>
+          <p>The largest monument to a monarch anywhere in the world, it stands in 64 acres of gardens and is now a museum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="107743.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block bold">
+          <h4>Taj Mahal</h4>
+          <p>An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan in memory of his favourite wife.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="5800.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Tiruchirappalli Rockfort</h5>
+          <p>Tiruchirappalli Rockfort, locally known as Malaikottai, is a historic fortification and temple complex built on an ancient rock..</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="wp8918814-india-travel-wallpapers.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Narmada River</h5>
+          <p>This river flows through the states of Madhya Pradesh and Gujarat in India. It is also known as the "Life Line of Madhya Pradesh and Gujarat".</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="5811.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Shri Harmandir Sahib</h5>
+          <p>Shri Harmandir Sahib was attacked by the Afghan forces under Ahmed Shah Abdali in December,1,1764.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+  <div id="intrsm" class="p-5 pt-3">
+    <div class="bg-light rounded p-2 pb-4 border">
+      <section class=" text-center container">
+        <div class="row pt-2 pb-2">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h3 class="fw-light">Indian Destinations</h3>
+            <p class="text-muted bold" id="txt">India is a vibrant land of startling contrasts where both the traditional and modern
+              worlds meet. The world's seventh largest nation by area and the second largest in terms of population,
+              India boasts a rich heritage that's the result of centuries of different cultures and religions leaving
+              their mark.</p>
+          </div>
+        </div>
+      </section>
+      <div class="card-title m-3 p-3 f-s2" id="card-t">
+      </div>
+      <div class="album bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="dall_housie.jpg" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2">Dalhousie is a hill station, near town of Chamba in Chamba district in the Indian
+                    state of Himachal Pradesh. It is situated on five hills and has an elevation of 1,970 m (6,460 ft)
+                    above sea level.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Adobe_Express_20230312_1706340_1.png" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2">The state of Goa, in India, is famous for its beaches and places of worship.
+                    Tourism is generally focused on the coastal areas of Goa, with decreased tourist activity inland.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Adobe_Express_20230312_1714490_1.png" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2">The Golden Temple is the preeminent spiritual site of Sikhism and one of the
+                    holiest sites in Sikhism, alongside the Gurdwara Darbar Sahib Kartarpur in Kartarpur.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Adobe_Express_20230312_1720370_1.png" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2">Chhatrapati Shivaji Maharaj Terminus is a historic railway terminus and UNESCO
+                    World Heritage Site in Mumbai, Maharashtra, India.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Adobe_Express_20230312_1824200_1.png" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2">Mysore Palace, also known as Amba Vilas Palace, is a historical palace and a
+                    royal residence (house). Mysore is commonly described as the 'City of Palaces',and there are seven
+                    palaces including this one.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Adobe_Express_20230312_1922530_1.png" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2">Munnar is also called the "Kashmir of South India" and is a popular honeymoon
+                    destination. It is situated at around 1,600 metres above mean sea level.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Adobe_Express_20230312_1900340_1.png" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2">Jal Mahal is a palace in the middle of the Man Sagar Lake in Jaipur city. Jaipur
+                    is also known as the Paris of India</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Adobe_Express_20230312_1744150_1.png" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2">Tourism in Mumbai (Bombay) is an industry that attracts almost 6 million tourists
+                    per year, making it the 30th-most visited location worldwide..</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="Adobe_Express_20230312_1853000_1.png" class="rounded" alt="">
+                <div class="card-body">
+                  <p class="card-text f-s2"> A gift of himalayas to the world. Manali is a rustic enclave known for its cool
+                    climate and snow-capped mountains, offering respite to tourists.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-light boldlight p-3 rounded mt-3 border">
+      <div class="">Why TrainTrippers?</div>
+      <br>
+      <div class="f-s text-m">
+        Our website, TrainTrippers is estabilished in 2023, is a section of your larger website project that is focused on providing a convenient and user-friendly way for travelers to search for trains between stations and tourist destinations. As a college student, I have identified a gap in the market for a website that specifically caters to train travel and tourism, and have created a platform that addresses this need. <br> <br>
+
+TrainTrippers offers a unique service that combines train travel and tourism, providing users with the ability to search for trains that connect them to popular tourist destinations. This feature is particularly useful for travelers who are looking to plan their itinerary and want to include train travel as part of their journey.  <br> <br>
+
+By using TrainTrippers, travelers can search for trains between stations and tourist destinations, making it easier for them to plan their trip and find the most convenient and cost-effective way to travel. The website's search functionality is designed to be easy to use, with clear and concise information provided to help users make informed decisions about their travel plans. <br>  <br>
+
+Overall, TrainTrippers is an innovative and practical addition to your larger website project, offering a valuable service to travelers who are looking for a convenient way to plan their train travel and tourism itinerary.
+
+
+
+
+
+
+      </div>
+    </div>
+    <div class="bg-light boldlight p-3 rounded mt-3 border">
+      <div class="">Frequently asked question and answers</div>
+      <br>
+      <div class="f-s fw-light text-m">
+      <div class="text-dark boldlight">   Q: What is TrainTrippers?</div> 
+A: TrainTrippers is a website that helps you search for trains between stations and tourist places based on your destination.
+<br><br>
+<div class="text-dark boldlight">Q: How do I use TrainTrippers?
+</div> 
+
+A: Simply enter your starting point, destination, and desired travel dates, and our website will show you a list of available trains and nearby tourist places.
+<br><br>
+<div class="text-dark boldlight">
+  Q: Is TrainTrippers free to use?
+</div> 
+ A: Yes, TrainTrippers is completely free to use. You can search for trains and tourist places without any charges.
+<br><br>
+<div class="text-dark boldlight">
+  Q: How accurate is the information on TrainTrippers?
+</div> 
+A: We strive to provide our users with the most accurate and up-to-date information possible. However, train schedules and tourist information can change frequently, so we recommend that you double-check the information before making any travel plans.
+<br><br>
+<div class="text-dark boldlight">
+  Q: Can I book train tickets through TrainTrippers?
+</div>
+A: No, TrainTrippers is not a booking platform. However, we provide you with all the necessary information you need to book your tickets through the official website of Indian Railways or any other booking platform of your choice.
+<br><br>
+<div class="text-dark boldlight">
+  Q: Can I suggest a new feature for TrainTrippers?
+</div>
+A: Yes, we welcome all feedback and suggestions. You can send us your ideas through our website's contact form or email us directly at [insert email address here].
+<br><br>
+<div class="text-dark boldlight">
+  Q: How can I advertise on TrainTrippers?
+</div>
+A: We offer various advertising opportunities on our website. If you are interested in advertising with us, please contact us through our website's contact form or email us at TrainTrippers <a href="">@customersupport.com </a> .
+<br><br>
+We hope this answers your questions. If you have any other queries or concerns, please don't hesitate to <a href="contact.html">contact us</a>.
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>  </div>
+
+   <footer>
+    <div class="footer text-light bg-dark h-auto p-5" id="ftr">
+   <div class="d-inline-block pb-3" id="lg-if">
+    <img src="pngfind.com-facebook-icon-white-png-1744532.png" class="logos-f me-5"  alt="">
+    <img src="pngfind.com-instagram-png-white-2773517 (1).png" class="logos-i" alt="">
+   </div>
+      <div class="d-inline-block bold align-right f-l"> &copy; 2023 TrainTrippers All rights reserved
+        <br> <div class="d-inline-block text-light fw-light f-s bold float-end"> Designed and built with all the love in the world.
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!-- Import the functions you need from the SDKs you need -->
+
+  <script src="firebase.js" type="module"></script>
+  <script src="welcome.js" type="module"></script>
+  <script src="welcome1.js"></script>
+  <!-- <script src="welcome.js"></script> -->
+
+
+</body>
+
+</html>
